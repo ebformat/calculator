@@ -4,5 +4,5 @@
 /.classpath
 /.idea
 /.DS_Store
-*.iml
+/*.iml
 /bin/
