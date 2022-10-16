@@ -22,4 +22,18 @@ class CalculatorTest {
 
 	}
 
+	@Test
+	void testMultipkTwoPositiveNumber() {
+
+		// Given
+		int a = 2;
+		int b = 3;
+		Calculator cal = new Calculator();
+		// WHEN
+		int c = cal.multiplyTwoNumber(2, 3);
+		// THEN
+		assertThat(c).isEqualTo(6);
+
+	}
+
 }

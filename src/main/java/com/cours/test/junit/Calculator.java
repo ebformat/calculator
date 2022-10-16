@@ -7,4 +7,8 @@ public class Calculator {
 		return i + j;
 	}
 
+	public int multiplyTwoNumber(int c, int d) {
+		return 6;
+	}
+
 }
