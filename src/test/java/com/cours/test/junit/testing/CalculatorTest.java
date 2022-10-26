@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.util.Set;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -15,6 +16,7 @@ import com.cours.test.junit.Calculator;
 class CalculatorTest {
 	Calculator cal;
 
+	@Tag("concerneCalcule")
 	@Test
 	void testAddTwoPositiveNumber() {
 
@@ -28,6 +30,7 @@ class CalculatorTest {
 
 	}
 
+	@Tag("concerneCalcule")
 	@Test
 	void testMultipkTwoPositiveNumber() {
 
@@ -47,6 +50,7 @@ class CalculatorTest {
 		cal = new Calculator();
 	}
 
+	@Tag("concerneTESTPARAMETERE")
 	@ParameterizedTest
 	@ValueSource(ints = { 4, 5, 6, 7 })
 	public void testParametreMultiplyByZero(int argument) {
@@ -55,6 +59,7 @@ class CalculatorTest {
 
 	}
 
+	@Tag("concerneTEMPEXECUTION")
 	@Timeout(1)
 	@Test
 	public void programmeCour() {
@@ -66,6 +71,7 @@ class CalculatorTest {
 		 */
 	}
 
+	@Tag("concernTESTPARSINGORDRE")
 	@Test
 	public void verifierOrdreChiffre() {
 		// Given
