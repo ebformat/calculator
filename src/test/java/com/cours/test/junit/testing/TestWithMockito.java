@@ -3,6 +3,7 @@ package com.cours.test.junit.testing;
 package com.openclassrooms.testing.calcul.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -47,6 +48,22 @@ public class TestWithMockito {
 
 		assertThat(result).isEqualTo(3);
 		verify(calculator).add(1, 2);
+	}
+
+	@Test
+	public void calculate_ShouldThrowIllegalException_forBivisionByo() {
+		//GIVEN : si caculator renvoi ArithmeticException
+		when(calculator.divide(1,0)).thenThrow(new ArithmeticException());
+		//WHE  : Alors le service lui renvoi: IllegalArithmetic Exception
+		assertThrows(IllegalArgumentException.class,()->classUnderTest.claculate)
+		//THEN
+		verify(calculator,times(1)).divide(1,O)
+		
+		
+		
+		
+		
+		
 	}
 
 }

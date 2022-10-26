@@ -35,4 +35,9 @@ public class Calculator {
 		return c * d;
 	}
 
+	public int divide(int i, int j) {
+		// TODO Auto-generated method stub
+		return i / j;
+	}
+
 }
