@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
@@ -48,8 +49,19 @@ class CalculatorTest {
 	@ValueSource(ints = { 4, 5, 6, 7 })
 	public void testParametreMultiplyByZero(int argument) {
 		int multiplyTwoNumber = cal.multiplyTwoNumber(argument, 0);
-		assertThat(multiplyTwoNumber).isEqualTo(1);
+		assertThat(multiplyTwoNumber).isEqualTo(0);
 
+	}
+
+	@Timeout(1)
+	@Test
+	public void programmeCour() {
+
+		cal.longueCalcul();
+		/*
+		 * assertThatExceptionOfType(java.lang.InterruptedException.class).isThrownBy(()
+		 * -> { throw new IOException("boom!"); }).withMessage("boooooooooooom!");
+		 */
 	}
 
 }
