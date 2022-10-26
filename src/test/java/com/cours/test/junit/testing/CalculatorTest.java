@@ -2,6 +2,8 @@ package com.cours.test.junit.testing;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import java.util.Set;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
@@ -62,6 +64,16 @@ class CalculatorTest {
 		 * assertThatExceptionOfType(java.lang.InterruptedException.class).isThrownBy(()
 		 * -> { throw new IOException("boom!"); }).withMessage("boooooooooooom!");
 		 */
+	}
+
+	@Test
+	public void verifierOrdreChiffre() {
+		// Given
+		Integer jj = 454777789;
+		// WHEN
+		Set<Integer> verifierOrdreChifffre = cal.verifierOrdreChifffre(jj);
+		// THEN
+		assertThat(verifierOrdreChifffre).containsExactly(4, 5, 7, 8, 9);
 	}
 
 }
