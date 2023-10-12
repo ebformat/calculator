@@ -2,7 +2,7 @@ package com.cours.test.junit;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
-
+//commentaire 14h38 SERVEUR
 public class Calculator {
 	public int soustractio(int c, int d) {
 		return 0;
@@ -38,6 +38,9 @@ public class Calculator {
 	public int divide(int i, int j) {
 		// TODO Auto-generated method stub
 		return i / j;
+	}
+	public void faisrien(){
+		System.out.println("Line CommitA");
 	}
 
 }
