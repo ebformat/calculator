@@ -4,7 +4,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 //commentaire 14h38 SERVEUR
 //ligne 1514 commit 1
-//ligne 1514 commit 2
+//ligne 1514 commit 2VIENDUFITAVECCONFLICT
 public class Calculator {
 	//line 2020 local
 	//masterbranche 2121
