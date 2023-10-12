@@ -3,7 +3,10 @@ package com.cours.test.junit;
 import java.util.LinkedHashSet;
 import java.util.Set;
 //commentaire 14h38 SERVEUR
+//ligne 1514 commit 1
+//ligne 1514 commit 2
 public class Calculator {
+	//line 2020 local
 	public int soustractio(int c, int d) {
 		return 0;
 	}
