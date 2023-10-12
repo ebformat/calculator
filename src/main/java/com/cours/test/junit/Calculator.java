@@ -48,4 +48,8 @@ public class Calculator {
 		System.out.println(
 			"Line CommitA");
 	}
+	public void featurecalulator2Rajout(){
+		System.out.println(
+			"Calculator2rajout");
+	}
 }
