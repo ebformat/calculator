@@ -42,8 +42,8 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		return i / j;
 	}
-	public void faisrien(){
-		System.out.println("Line CommitA");
+	public void faisrisssen(){
+		System.out.println(
+			"Line CommitA");
 	}
-
 }
