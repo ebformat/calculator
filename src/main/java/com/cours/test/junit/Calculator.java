@@ -11,10 +11,14 @@ public class Calculator {
 	//masterbranche 2121
 	//masterbranche 2222VAFAIREDECONFLI
 	public int soustractio(int c, int d) {
+		////A REFRESHIR EN LOCAL AVANT PUSH
 		return 0;
 	}
 
 	public Set<Integer> verifierOrdreChifffre(Integer in) {
+		///JAI MODIE LOCAL AVANT FRESH REMOTE ET REBASE
+
+		////MODIF LOCACA
 		String sIn = String.valueOf(in);
 		Set<Integer> result = new LinkedHashSet<Integer>();
 		for (int i = 0; i < sIn.length(); i++) {
