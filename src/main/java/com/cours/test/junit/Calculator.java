@@ -16,6 +16,7 @@ public class Calculator {
 	}
 
 	public Set<Integer> verifierOrdreChifffre(Integer in) {
+		///JAI MODIE LOCAL AVANT FRESH REMOTE ET REBASE
 		String sIn = String.valueOf(in);
 		Set<Integer> result = new LinkedHashSet<Integer>();
 		for (int i = 0; i < sIn.length(); i++) {
