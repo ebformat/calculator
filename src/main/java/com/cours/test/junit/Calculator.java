@@ -28,12 +28,15 @@ public class Calculator {
 	}
 
 	public void longueCalcul() {
+		System("COMM1 local")
 		try {
 			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		System("COMM1 local22222")
+		S
 	}
 
 	public int addTwoNumber(int i, int j) {
@@ -54,6 +57,7 @@ public class Calculator {
 			"Line CommitA");
 	}
 	public void featurecalulator2Rajout(){
+		System.out.println("Local avantREBASE gitlen")
 		System.out.println(
 			"Calculator2rajout");
 	}
@@ -62,4 +66,6 @@ public class Calculator {
 	function test(){
 		let r = new Array<String>();
 		r.add("A Serveur 01");
+
+	///REBASE SANS COMMII  MIAMPY KELY  HAFA KOA
 }
