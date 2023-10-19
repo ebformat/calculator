@@ -61,6 +61,8 @@ public class Calculator {
 		System.out.println("Local avantREBASE gitlen")
 		System.out.println(
 			"Calculator2rajout");
+			FETature1
+			
 	}
 
 	///REBASE SANS COMMII
