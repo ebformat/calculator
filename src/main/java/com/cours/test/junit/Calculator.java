@@ -59,4 +59,7 @@ public class Calculator {
 	}
 
 	///REBASE SANS COMMII
+	function test(){
+		let r = new Array<String>();
+		r.add("A Serveur 01");
 }
