@@ -62,6 +62,7 @@ public class Calculator {
 		System.out.println(
 			"Calculator2rajout");
 			FETature1
+			FETature2
 			
 	}
 
